@@ -1,0 +1,152 @@
+@media screen and (max-width: 1200px) {
+    header .menu_side, .song_side {
+        width: 15%;
+    }
+    header .song_side {
+        width: 85%;
+    }
+    header .song_side::before {
+        background-position: inherit;
+    }
+    header .song_side nav .search {
+        padding: 0;
+    }
+    header .song_side nav .golovne_menu li {
+        margin-right: 0;
+    }
+    header .master_play .icon {
+        margin: 0; 
+    }
+    header .master_play .bar {
+        width: 40%;
+    }
+    .add {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    header .menu_side, .song_side {
+        width: 0%;
+    }
+    header .song_side {
+        width: 100%;
+    }
+    header .song_side::before {
+        width: 100%;
+    }
+    header .song_side .content p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    header .master_play {
+        z-index: 9999999999;
+        height: 6%;
+    }
+    header .song_side {
+        height: 94%;
+    }
+    header .song_side::before {
+        background-position: center;
+    }
+    header .master_play .icon {
+        position: absolute;
+        margin-bottom: 20%;
+        right: 40%;
+        font-size: 17px;
+    }
+    header .master_play .wave {
+        position: absolute;
+        margin-bottom: 37%;
+        height: 25px;
+        right: 44%;
+    }
+    header .master_play .icon::before {
+        content: '';
+        position: absolute;
+        width: 200px;
+        height: 130px;
+        background: #111727;
+        z-index: -1;
+        border-radius: 80% 80% 0% 0%;
+        left: 10%;
+        box-shadow: 0px -11px 20px -17px #000;
+        margin: -65%;
+    }
+    header .master_play .wave .wave1 {
+        width: 6px;
+    }
+    header .song_side .content {
+        height: 25%;
+    }
+    header .song_side .content p {
+        font-size: 15px;
+    }
+    header .song_side nav .golovne_menu {
+        display: none;
+    }
+    header .song_side nav .search input {
+        font-size: 11px;
+    }
+    header .song_side nav .golovne_menu li {
+        font-size: 12px;
+    }
+    .add a {
+        font-size: 13px;
+    }
+    .add .author {
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 470px) {
+    header .song_side .content p {
+        font-size: 11px;
+    }
+    header .song_side nav .golovne_menu li {
+        font-size: 10px;
+    }
+    header .song_side nav .golovne_menu {
+        display: none;
+    }
+    .add a {
+        font-size: 10px;
+    }
+    header .song_side nav .user {
+        display: none;
+    }
+    header .song_side nav .search input {
+        font-size: 11px;
+    }
+    header .song_side nav .search .bi {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    header .song_side nav .search input {
+        font-size: 10px;
+    }
+    header .song_side .content h1 {
+        font-size: 23px;
+    }
+    header .song_side .content p {
+        font-size: 10px;
+    }
+    header .master_play .vol {
+        display: none;
+    }
+    header .song_side nav .search .search_results .card .content {
+        font-size: 11px;
+    }
+    header .song_side nav .search .search_results .card .content span {
+        font-size: 9px;
+    }
+    header .master_play h5 {
+        font-size: 11px;
+    }
+    header .master_play h5 .subtitle {
+        font-size: 10px;
+    }
+}
